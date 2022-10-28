@@ -5,9 +5,22 @@ background-size: cover;
 padding-top: 27%;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.logoimage{margin-bottom: 100%;}
+.introduction{padding-bottom: 400px;
+text-decoration: aqua;
+color: ghostwhite;}
+#logoimage{margin-top: 5px;
+    margin-bottom:40px;
+    width: 100px;
+    height: 100px;}
+.Services{background-image: url("../Images/landing.png");
+margin-top: 30px;
+background-position: center;
+background-size: cover;
+padding-top: 300px;
+text-align: center;}
 
 .AboutUs{font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: bold;
-text-align: center;}
+text-align: center;
+margin-top: 50px;
+margin-bottom:500px;}

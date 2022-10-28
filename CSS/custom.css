@@ -28,3 +28,7 @@ text-decoration: double
 ;font-weight: bold;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.products{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+text-align: center;
+;}

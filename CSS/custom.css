@@ -12,15 +12,19 @@ color: ghostwhite;}
     margin-bottom:40px;
     width: 100px;
     height: 100px;}
+ .AboutUs{font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 1px;
+        padding-top: 1px;}
 .Services{background-image: url("../Images/landing.png");
-margin-top: 30px;
+padding-top:40px;
+
 background-position: center;
 background-size: cover;
-padding-top: 300px;
-text-align: center;}
-
-.AboutUs{font-family: Georgia, 'Times New Roman', Times, serif;
-font-weight: bold;
 text-align: center;
-margin-top: 50px;
-margin-bottom:500px;}
+color: coral;
+text-decoration: double
+;font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -5,7 +5,9 @@ background-size: cover;
 padding-top: 27%;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#logoimage{padding-top: 5%;}
+
+.logoimage{margin-bottom: 100%;}
+
 .AboutUs{font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: bold;
 text-align: center;}

@@ -1,1 +1,11 @@
-img{size: 0cm;}
+.landingPage{text-align: center;
+background-image:url("../Images/h_img.jpg");
+background-position: center;
+background-size: cover;
+padding-top: 27%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logoimage{padding-top: 5%;}
+.AboutUs{font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+text-align: center;}

@@ -10,22 +10,22 @@ function mouseOut() {
 }
 document.getElementById("products").onclick = function() {
   
-    document.getElementById("content1").slide="flex";
+    document.getElementById("products").slide="flex";
 }
 
-document.getElementById("content2").onclick = function() {
+document.getElementById("products").onclick = function() {
   
-    document.getElementById("content2").style.display="flex";
+    document.getElementById("products").style.display="flex";
 
 }
-document.getElementById("content3").onclick = function() {
+document.getElementById("products").onclick = function() {
   
-    document.getElementById("content3").style.display="flex";
+    document.getElementById("products").style.display="flex";
 
 }
-document.getElementById("content4").onclick = function() {
+document.getElementById("products").onclick = function() {
   
-    document.getElementById("content4").style.display="flex";
+    document.getElementById("products").style.display="flex";
 
 }
 document.getElementById("rounded").onclick = function() {

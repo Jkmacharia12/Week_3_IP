@@ -34,10 +34,5 @@ document.getElementByClass("AboutUs").onclick = function() {
 
 }
 
-document.getElementById("square").onclick = function() {
-
-    document.getElementById("square").style.display = "none";
-
-}
 var nameFilled=document.document.getElementByName(name);
 alert(name);

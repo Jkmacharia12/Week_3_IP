@@ -50,3 +50,6 @@ color:whitesmoke;}
     text-align:center ;
 color: azure;word-wrap: break-word;
   }
+  #content1{
+    display: none;
+  }

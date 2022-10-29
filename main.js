@@ -28,9 +28,9 @@ document.getElementById("products").onclick = function() {
     document.getElementById("products").style.display="flex";
 
 }
-document.getElementById("rounded").onclick = function() {
+document.getElementByClass("AboutUs").onclick = function() {
 
-    document.getElementById("rounded").style.display = "text";
+    document.getElementById("AboutUs").style.color = "blue";
 
 }
 

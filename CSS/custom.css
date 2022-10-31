@@ -53,3 +53,10 @@ font-size: 14px;
   #content{
     display:none;
   }
+  #content1{display:none;
+}
+#content2{display:none;
+}
+#content3{display:none;
+}
+h6{color: orangered;}

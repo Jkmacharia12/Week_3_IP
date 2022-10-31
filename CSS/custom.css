@@ -1,62 +1,81 @@
-.landingPage{text-align: center;
-background-image:url("../Images/h_img.jpg");
-background-position: center;
-background-size: cover;
-padding-top: 27%;
-font-family: Georgia, 'Times New Roman', Times, serif;
+.landingPage {
+  text-align: center;
+  background-image: url("../Images/h_img.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 27%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.introduction{padding-bottom: 400px;
-text-decoration: aqua;
-color: ghostwhite;}
-#logoimage{margin-top: 5px;
-    margin-bottom:40px;
-    width: 100px;
-    height: 100px;}
- .AboutUs{font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: bold;
-        text-align: center;
-        padding-bottom: 1px;
-        padding-top: 1px;}
-.Services{background-image: url("../Images/landing.png");
-padding-top:5px;
-padding-top: 5px;
+.introduction {
+  padding-bottom: 400px;
+  text-decoration: aqua;
+  color: ghostwhite;
+}
+#logoimage {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  width: 100px;
+  height: 100px;
+}
+.AboutUs {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+.Services {
+  background-image: url("../Images/landing.png");
+  padding-top: 5px;
+  padding-top: 5px;
 
-background-position: center;
-background-size: cover;
-text-align: center;
-color: red;
-text-decoration: double
-;font-weight: bold;
-font-family: Georgia, 'Times New Roman', Times, serif;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: red;
+  text-decoration: double;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.form-container{text-align: center;}
-.form{align-items: center;
-padding-left: 250px;}
-#Header{margin-top: 100px;
-color:whitesmoke;}
+.form-container {
+  text-align: center;
+}
+.form {
+  align-items: center;
+  padding-left: 250px;
+}
+#Header {
+  margin-top: 100px;
+  color: whitesmoke;
+}
 #products {
-    background: white;
-    max-height: 100px
-    ;
-  }
-  
-  .product {
-    background-color: black;
-    width: 120px;
-    height: 500px;
-    float: left;
-    margin:85px;
-    text-align:center ;
-color: azure;word-wrap: break-word;
-font-size: 14px;
-  }
-  #content{
-    display:none;
-  }
-  #content1{display:none;
+  background: white;
+  max-height: 100px;
 }
-#content2{display:none;
+
+.product {
+  background-color: black;
+  width: 120px;
+  height: 500px;
+  float: left;
+  margin: 85px;
+  text-align: center;
+  color: azure;
+  word-wrap: break-word;
+  font-size: 14px;
 }
-#content3{display:none;
+#content {
+  display: none;
 }
-h6{color: red;}
+#content1 {
+  display: none;
+}
+#content2 {
+  display: none;
+}
+#content3 {
+  display: none;
+}
+h6 {
+  color: red;
+}

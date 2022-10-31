@@ -46,7 +46,7 @@
             <div id="products">
                 <div class="product">
                     <h5>Web development</h5>
-                    <div class="webimage"><img src="Images/Website_img.jpg" alt="weblogo" height="100" width="100">
+                    <div id="productImage"><img src="Images/Website_img.jpg" alt="weblogo" height="100" width="100">
                     </div>
                     <div id="content">
                         <p>Our Websites are interactive and communicate to our customers with an interactive UI.</p>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="product">
                     <h5>Telematics</h5>
-                    <div class="telematicsImage"><img src="Images/telematics.png" alt="telematicslogo" height="100"
+                    <div id="productImage"><img src="Images/telematics.png" alt="telematicslogo" height="100"
                             width="100"></div>
                     <div id="content">
                         <p>You want to see where your everything is?Tracking all your assets from a single point?</p>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="product">
                     <h5>Payment Solutions</h5>
-                    <div class="paymentsolutionsImage"><img src="Images/payment_image.png" alt="paymentlogo"
+                    <div id="productImage"><img src="Images/payment_image.png" alt="paymentlogo"
                             height="100" width="100"></div>
                     <div id="content">
                         <p>We integrate your products with all payment solutions.</p>
@@ -75,11 +75,11 @@
                 </div>
                 <div class="product">
                     <h5>Bulk SMS solution</h5>
-                    <div class="bulksmsImage"><img src="Images/bulk-sms.png" alt="smslogo" height="100" width="100">
+                    <div id="productImage"><img src="Images/bulk-sms.png" alt="smslogo" height="100" width="100">
                     </div>
-                    <div id="content"></div>
+                    <div id="content">
                     <p>Contact your customers made easier with our bulk sms solution.</p>
-                </div>
+                </div></div>
 
 
             </div>
@@ -95,27 +95,71 @@
             happy to get back to you.</p>
 
         </div>
-        <div class="form-container">
-            <form id="contact_form">
-                <div class="mb-3 form-row">
-                    <div class="mr-3 form-col">
-                        <label for="name_input">Your Name:</label>
-                        <input type="text" name="name" id="name_input" placeholder="Name" />
-                    </div>
-                    <div class="form-col">
-                        <label>Email:</label>
-                        <input type="email" placeholder="name@website.com" />
-                    </div>
+        <div class="form">
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="index.html" d="get">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
                 </div>
-                <div class="mb-3">
-                    <label>Message:</label>
-                    <textarea rows="6" class="w-full border border-gray"></textarea>
-                </div>
-                <div class="mb-3">
-                    <button class="btnx" type="submit">Send</button>
-                </div>
-            </form>
-        </div>
+                <!--Grid row-->
+
+                </form>
             </div>
         </div>
         <script src="main.js"></script>

@@ -1,8 +1,13 @@
 $(document).ready(function(){
     $("#productImage").click(function(){
-      $("#content").slideDown("slow");
+      $("#content").slideToggle("slow");
     });
-  });
+
+    });
+  
+
+
+
 
 document.getElementById("service").onmouseover = function() {mouseOver()};
 document.getElementById("service").onmouseout = function() {mouseOut()};

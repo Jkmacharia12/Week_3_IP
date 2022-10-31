@@ -41,7 +41,7 @@ color:whitesmoke;}
   }
   
   .product {
-    background-color: goldenrod;
+    background-color: black;
     width: 120px;
     height: 500px;
     float: left;
@@ -59,4 +59,4 @@ font-size: 14px;
 }
 #content3{display:none;
 }
-h6{color: orangered;}
+h6{color: red;}
